@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+  
+  <h1>Hospital</h1>
+  <h3>Empleados</h3>
+  <table id="idLista" class="table">
+    <tr>
+      <th>Nombre</th>
+      <th>Apellido</th>
+      <th>Edad</th>
+      <th>Ciudad</th>
+      <th>Acciòn</th>
+    </tr>
+    <tbody>
+    <tr>
+      <td>Carmen</td>
+      <td>Diaz</td>
+      <td>45</td>
+      <td>uruguay</td>
+      <td><a href="#">editar</a></td>
+    </tr>
+    <tr>
+      <td>Luis</td>
+      <td>Flores</td>
+      <td>54</td>
+      <td>barranquilla</td>
+      <td><a href="#">editar</a></td>
+    </tr>
+    <tr>
+      <td>Irma</td>
+      <td>Rios</td>
+      <td>24</td>
+      <td>bolivia</td>
+      <td><a href="#">editar</a></td>
+    </tr>
+    <tr>
+      <td>Kathy</td>
+      <td>Flores</td>
+      <td>25</td>
+      <td>uruguay</td>
+      <td><a href="#">editar</a></td>
+    </tr>
+    <tr>
+      <td><input type="text" id="idBuscarNombre"></td>
+      <td><input type="text" id="idBuscarApellido"></td>
+      <td><input type="text" id="idBuscarLegajo"></td>
+      <td><input type="text" id="idBuscarDNI"></td>
+      <td></td>
+    </tr>
+    </tbody>
+  </table>
+  <hr>
+  
+  <div id="idDatos" class="row">
+    <h3>Pacientes</h3>
+    <div id="idPersonal" class="col-xs-6">
+      
+      <p><b>Nombre: </b>Carmen</p>
+      <p><b>Apellido: </b>Diaz</p>
+      <p><b>Edad: </b>30</p>
+      <p><b>Motivo Visita: </b>resfriado</p>
+      <p><b>Nacionalidad: </b>Uruguaya</p>
+      <p><b>Fecha de nacimiento: </b> 10/10/1995</p>
+      </div>
+    <div id="idContacto" class="col-xs-6">
+      <p><b>Telefono: </b>555-555</p>
+      <p><b>Calle: </b>Cuchacucha</p>
+      <p><b>Numero: </b>220</p>
+      <p><b>Departamento: </b>5 B</p>
+    </div>
+    <form action="#" method="GET" class="col-xs-12" id="idForm">
+      
+      <div class="form-group">
+        <label>Materia</label>
+          <select class="form-control" id="idMateria">
+            <option value="0">Seleccionar</option>
+            <option value="1">Base de datos</option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <label>Fecha</label>
+          <input id="idFecha" type="text" class="form-control" placeholder="DD/MM/AAAA">
+      </div>
+      
+       <div class="form-group" id="idanio">
+        <label>Motivo</label>
+         <div class="radio">
+          <label class="checkbox-inline">
+            <input type="radio" name="anio" id="idAnio1" value="1">Consulta</label>
+          <label class="checkbox-inline">
+            <input type="radio" name="anio" id="idAnio2" value="2">Cita</label>              
+        </div>
+      </div>
+      
+      <div class="form-group" id="idcuatri">
+       
+        </div>
+      </div>
+      
+      <input type="hidden" value="%idAlumno%">
+      
+      <input type="Submit" value= "Guardar" id="idBoton" class="form-control btn btn-primary">
+      
+    </form>
+  </div>
+  <hr>
+</div>
+    
+    
+    
+    <scrip src="js/script.js"></scrip>
+</body>
+</html>
